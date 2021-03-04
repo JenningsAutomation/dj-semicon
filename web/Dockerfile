@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.7
 WORKDIR /usr/src/app
 RUN apt-get update 
 RUN apt-get install ffmpeg libsm6 libxext6 -y
